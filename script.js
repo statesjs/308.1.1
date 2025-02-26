@@ -88,7 +88,7 @@ let step1 = n2 - n1;
 let step2 = step1 * n3;
 let step3 = step2 % n4;
 console.log(`The resulting number from subtracting n1(${n1}) from n2(${n2}) equals ${step1}. 
-    The result (${step1}) multiplied by the third number (${n3}$) equals {step2}.
+    The result (${step1}) multiplied by the third number (${n3}$) equals ${step2}.
     The remainder of dividing that result (${step2}) by the fourth number (${n3}) equals ${step3}.`);
 
 /*
